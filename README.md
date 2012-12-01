@@ -11,6 +11,6 @@ build it into your post-commit handlers and not have to wait the minimum 15 seco
 
 You can now trigger an immediate pull like this:
 
-    PHABRICATOR_ENV=custom/myconf ./phabricator/bin/phd launch RepositorySinglePullDaemon -- A
+    PHABRICATOR_ENV=custom/myconf ./phabricator/bin/phd launch RepositoryForcePullDaemon -- A
 
 Where `A` is the callsign of the repo you want to pull from.
